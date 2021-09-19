@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', arial, sans-serif;
+    color: #434343;
+    background: #17191c;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 24px;
+}
+
+body a:hover {
+    color: #53c47d;
+}
+
+a {
+    color: #3AAA64;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.header {
+    padding: 30px 0;
+    background: #1e2124;
+    color: rgba(255, 255, 255, 0.9);
+    border-top-color: #1e2124;
+    background-attachment: scroll;
+    background-clip: border-box;
+}
+
+.header .profile-image {
+    margin-right: 30px;
+    max-height: 200px;
+}
+
+.header .profile-content .name {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 38px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.header .profile-content .desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.header .profile-content .social a {
+    background: #2e3238;
+    color: rgba(230, 230, 230, 0.7);
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.header .profile-content .social a:hover {
+    background: #54ba4e;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header .profile-content .social a i {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section .section-inner {
+    background: #1e2124;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+}
+
+.section .heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 24px;
+}
+
+.section .content .more-link i {
+    margin-right: 5px;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
